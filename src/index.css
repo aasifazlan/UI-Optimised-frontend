@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*body {
+    margin: 0;
+    padding: 0;
+  }
+
+  @layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 1.2s ease-in-out;
+  }
+
+  .animate-scroll-text {
+    animation: scrollText 20s linear infinite;
+  }
+
+  .group-hover\:pause-scroll:hover {
+    animation-play-state: paused;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes scrollText {
+    0% { top: 100%; }
+    100% { top: -100%; }
+  }
+}
