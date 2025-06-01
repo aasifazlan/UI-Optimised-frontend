@@ -61,7 +61,7 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-3">Contact</h3>
           <p className="text-sm text-gray-700 mb-2">
-            Email: <a href="mailto:info@unscriptedindia.com" className="hover:underline">info@unscriptedindia.com</a>
+            Email: <a href="mailto:info@unscriptedindia.in" className="hover:underline">info@unscriptedindia.in</a>
           </p>
           <p className="text-sm text-gray-700">Location: Delhi, India</p>
         </div>
