@@ -32,7 +32,7 @@ const CookieConsentBanner = () => {
     localStorage.setItem("cookieConsent", "false");
     localStorage.setItem("analyticsConsent", "false");
     localStorage.setItem("personalizationConsent", "false");
-    setConsent("false");
+    setConsent("true");
     setShowBanner(false);
   };
 
