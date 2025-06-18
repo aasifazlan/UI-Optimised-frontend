@@ -45,7 +45,7 @@ const TermsOfService = () => {
       </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">7. Contact Us</h2>
-      <p>If you have questions, contact us at: <a href="mailto:info@unscriptedindia.in" className="text-blue-600">info@unscriptedindia.com</a></p>
+      <p>If you have questions, contact us at: <a href="mailto:info@unscriptedindia.in" className="text-blue-600">info@unscriptedindia.in</a></p>
     </div>
   );
 };
