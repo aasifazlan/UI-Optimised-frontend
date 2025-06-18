@@ -19,10 +19,12 @@ import HistoryArticles from "./pages/history/HistoryArticles";
 import ContactForm from './pages/Contact';
 import History from './pages/History';
 import ScrollToTop from './components/ScrollToTop';
+import Diversity from './pages/Diversity';
+import Documentary from './pages/Documentary';
 // Placeholder pages
  
-const Diversity = () => <div className="p-6">🌍 Diversity Page Coming Soon</div>;
-const Documentary = () => <div className="p-6">🎬 Documentary Page Coming Soon</div>;
+// const Diversity = () => <div className="p-6">🌍 Diversity Page Coming Soon</div>;
+// const Documentary = () => <div className="p-6">🎬 Documentary Page Coming Soon</div>;
 
 // Placeholder for 404 route
 const NotFound = () => <div className="p-6">404: Page Not Found</div>;
